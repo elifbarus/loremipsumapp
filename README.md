@@ -3,32 +3,32 @@ Lorem Ipsum App, web uygulamaları ve web siteleri için modern ve duyarlı bir 
 <br>
 <br>
 <b><h2>Özellikler:</h2></b>
--Çoklu hazır HTML sayfası içerir: <br><br>
+-<b>Çoklu hazır HTML sayfası içerir:</b> <br><br>
 İletişim Sayfası (contact.html) <br>
 Satış Sayfası (sellingpage.html) <br>
 Dashboard (dashboard.html) <br>
 Şartlar ve Koşullar (conditions.html) <br>
 Uygulama Sayfaları (app.html, app2.html)<br><br>
-Duyarlı Tasarım: Şablon, farklı cihazlar ve ekran boyutlarıyla uyumluluğu sağlamak için tamamen duyarlıdır.
+<b>Duyarlı Tasarım:</b> Şablon, farklı cihazlar ve ekran boyutlarıyla uyumluluğu sağlamak için tamamen duyarlıdır.
 <br>
-Özelleştirilebilir: Farklı projelere minimum çabayla kolayca uyarlanabilir.
+<b>Özelleştirilebilir:</b>Farklı projelere minimum çabayla kolayca uyarlanabilir.
 <br>
-VS Code Yapılandırması: Optimize edilmiş bir geliştirme deneyimi için önceden tanımlanmış VS Code ayarlarıyla birlikte gelir.
+<b>VS Code Yapılandırması:</b> Optimize edilmiş bir geliştirme deneyimi için önceden tanımlanmış VS Code ayarlarıyla birlikte gelir.
 <br>
 <br>
 <h3>Başlarken</h3>
 
--Depoyu Klonlayın:
+-<b>Depoyu Klonlayın:</b>
 <br>
 git clone https://github.com/kullanici-adi/loremipsumapp.git <br>
 cd loremipsumapp
 <br>
 <br>
--VS Code ile Açın:
+-<b>VS Code ile Açın:</b>
 Proje, tutarlı bir kodlama ortamı için bir .vscode/settings.json dosyası içerir.
 <br>
 <br>
--Özelleştirin ve Dağıtın:
+-<b>Özelleştirin ve Dağıtın:</b>
 Projenizin gereksinimlerine göre HTML dosyalarını ihtiyaçlarınıza göre düzenleyin.
 Statik dosyaları tercih ettiğiniz web sunucusu veya barındırma platformuna dağıtın.
 <br>
@@ -41,7 +41,7 @@ Katkılar memnuniyetle karşılanır! Önerileriniz veya geliştirmeleriniz vars
 Bu proje MIT Lisansı altında lisanslanmıştır.
 <br>
 <br>
-<b><h3>Ekran Görüntüleri: </h3>
+<b><h3>Ekran Görüntüleri:</b> </h3>
 
 Dashboard:
 <img width="1470" alt="Ekran Resmi 2024-08-26 20 24 49" src="https://github.com/user-attachments/assets/2d55c636-b085-4fca-9e1a-e1e50e6cfe80">
