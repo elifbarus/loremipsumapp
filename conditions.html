@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClarityUI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900 flex flex-col min-h-screen">
+
+    <header class="flex items-center justify-between p-6 border-b border-gray-200 bg-white sm:p-4 md:p-6 lg:p-6">
+        <div class="flex items-center md:ml-10">
+            <img src="https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1724630400&semt=ais_hybrid" alt="logo" class="w-16 h-16">               
+        </div>
+        <div class="flex items-center md:mr-10">
+            <span class="text-gray-600 text-sm">Ücretsiz Sürüm</span>
+            <div class="ml-2 md:ml-5 flex items-center space-x-2 md:space-x-4">
+                <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M26.8134 7.25953C25.5424 5.97574 24.0306 4.95525 22.3647 4.25652C20.6987 3.55778 18.9113 3.1945 17.1048 3.1875H16.9999C13.3366 3.1875 9.82331 4.64274 7.23297 7.23309C4.64262 9.82343 3.18738 13.3367 3.18738 17V24.4375C3.18738 25.2829 3.5232 26.0936 4.12098 26.6914C4.71875 27.2892 5.5295 27.625 6.37488 27.625H8.49988C9.34526 27.625 10.156 27.2892 10.7538 26.6914C11.3516 26.0936 11.6874 25.2829 11.6874 24.4375V19.125C11.6874 18.2796 11.3516 17.4689 10.7538 16.8711C10.156 16.2733 9.34526 15.9375 8.49988 15.9375H5.36019C5.5651 13.7221 6.39724 11.611 7.75908 9.85164C9.12093 8.09228 10.9561 6.75754 13.0494 6.00388C15.1427 5.25021 17.4075 5.10884 19.5783 5.59633C21.749 6.08382 23.7359 7.17998 25.306 8.75633C27.225 10.6852 28.4053 13.2269 28.6409 15.9375H25.4999C24.6545 15.9375 23.8438 16.2733 23.246 16.8711C22.6482 17.4689 22.3124 18.2796 22.3124 19.125V24.4375C22.3124 25.2829 22.6482 26.0936 23.246 26.6914C23.8438 27.2892 24.6545 27.625 25.4999 27.625H28.6874C28.6874 28.4704 28.3516 29.2811 27.7538 29.8789C27.156 30.4767 26.3453 30.8125 25.4999 30.8125H18.0624C17.7806 30.8125 17.5103 30.9244 17.3111 31.1237C17.1118 31.323 16.9999 31.5932 16.9999 31.875C16.9999 32.1568 17.1118 32.427 17.3111 32.6263C17.5103 32.8256 17.7806 32.9375 18.0624 32.9375H25.4999C26.9088 32.9375 28.2601 32.3778 29.2564 31.3815C30.2527 30.3852 30.8124 29.034 30.8124 27.625V17C30.8193 15.1932 30.4696 13.4028 29.7834 11.7313C29.0972 10.0599 28.0879 8.54025 26.8134 7.25953ZM8.49988 18.0625C8.78167 18.0625 9.05192 18.1744 9.25118 18.3737C9.45044 18.573 9.56238 18.8432 9.56238 19.125V24.4375C9.56238 24.7193 9.45044 24.9895 9.25118 25.1888C9.05192 25.3881 8.78167 25.5 8.49988 25.5H6.37488C6.09309 25.5 5.82283 25.3881 5.62358 25.1888C5.42432 24.9895 5.31238 24.7193 5.31238 24.4375V18.0625H8.49988ZM25.4999 25.5C25.2181 25.5 24.9478 25.3881 24.7486 25.1888C24.5493 24.9895 24.4374 24.7193 24.4374 24.4375V19.125C24.4374 18.8432 24.5493 18.573 24.7486 18.3737C24.9478 18.1744 25.2181 18.0625 25.4999 18.0625H28.6874V25.5H25.4999Z" fill="#3F3F46"/>
+                </svg>
+                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="25" cy="25" r="25" fill="#3F3F46"/>
+                    <g transform="translate(16, 16)">
+                      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12.75 12L15.75 9M15.75 9L12.75 6M15.75 9L5.25 9M9.75 12V12.75C9.75 13.9926 8.74264 15 7.5 15H4.5C3.25736 15 2.25 13.9926 2.25 12.75V5.25C2.25 4.00736 3.25736 3 4.5 3H7.5C8.74264 3 9.75 4.00736 9.75 5.25V6" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </g>
+                  </svg>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="max-w-6xl mx-auto px-4 md:px-8">
+        <h1 class="py-7 font-semibold text-xl border-b border-gray-300">Yasal Koşullar</h1>
+        <p class="mt-8 text-gray-500 text-lg">
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."<br>
+            Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC <br>
+            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"<br>
+            1914 translation by H. Rackham <br>
+            "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?" <br>
+            Section 1.10.33 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC <br>
+            "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, "
+        </p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="max-w-6xl mx-auto text-gray-600 py-20 mt-auto md:py-10 px-4 md:px-8">
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-center w-full">
+            <div class="md:w-10/12">
+                <p class="text-md text-gray-500 mb-4 md:mb-0">
+                    Yapacağınız sorgulamalar ve veri işlemeleri tamamiyle sizlerin sorumluluğundadır. Yaşanabilecek yasal durumlardan tarafımız sorumlu değildir. Bu sistemi kullanarak yasal koşulları kabul etmiş olursunuz.
+                    <a href="#" class="text-black font-bold ml-2"> - Yasal Koşullar</a>
+                </p>
+            </div>
+            <div class="md:w-2/12 flex justify-end">
+                <a href="#" class="flex items-center md:ml-0 md:bg-transparent md:border-0 md:text-inherit bg-white border border-gray-300 text-gray-600 py-2 px-4 rounded md:rounded-none">
+                    <svg class="h-6 w-6 mr-2" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M26.8134 7.25953C25.5424 5.97574 24.0306 4.95525 22.3647 4.25652C20.6987 3.55778 18.9113 3.1945 17.1048 3.1875H16.9999C13.3366 3.1875 9.82331 4.64274 7.23297 7.23309C4.64262 9.82343 3.18738 13.3367 3.18738 17V24.4375C3.18738 25.2829 3.5232 26.0936 4.12098 26.6914C4.71875 27.2892 5.5295 27.625 6.37488 27.625H8.49988C9.34526 27.625 10.156 27.2892 10.7538 26.6914C11.3516 26.0936 11.6874 25.2829 11.6874 24.4375V19.125C11.6874 18.2796 11.3516 17.4689 10.7538 16.8711C10.156 16.2733 9.34526 15.9375 8.49988 15.9375H5.36019C5.5651 13.7221 6.39724 11.611 7.75908 9.85164C9.12093 8.09228 10.9561 6.75754 13.0494 6.00388C15.1427 5.25021 17.4075 5.10884 19.5783 5.59633C21.749 6.08382 23.7359 7.17998 25.306 8.75633C27.225 10.6852 28.4053 13.2269 28.6409 15.9375H25.4999C24.6545 15.9375 23.8438 16.2733 23.246 16.8711C22.6482 17.4689 22.3124 18.2796 22.3124 19.125V24.4375C22.3124 25.2829 22.6482 26.0936 23.246 26.6914C23.8438 27.2892 24.6545 27.625 25.4999 27.625H28.6874C28.6874 28.4704 28.3516 29.2811 27.7538 29.8789C27.156 30.4767 26.3453 30.8125 25.4999 30.8125H18.0624C17.7806 30.8125 17.5103 30.9244 17.3111 31.1237C17.1118 31.323 16.9999 31.5932 16.9999 31.875C16.9999 32.1568 17.1118 32.427 17.3111 32.6263C17.5103 32.8256 17.7806 32.9375 18.0624 32.9375H25.4999C26.9088 32.9375 28.2601 32.3778 29.2564 31.3815C30.2527 30.3852 30.8124 29.034 30.8124 27.625V17C30.8193 15.1932 30.4696 13.4028 29.7834 11.7313C29.0972 10.0599 28.0879 8.54025 26.8134 7.25953ZM8.49988 18.0625C8.78167 18.0625 9.05192 18.1744 9.25118 18.3737C9.45044 18.573 9.56238 18.8432 9.56238 19.125V24.4375C9.56238 24.7193 9.45044 24.9895 9.25118 25.1888C9.05192 25.3881 8.78167 25.5 8.49988 25.5H6.37488C6.09309 25.5 5.82283 25.3881 5.62358 25.1888C5.42432 24.9895 5.31238 24.7193 5.31238 24.4375V18.0625H8.49988ZM25.4999 25.5C25.2181 25.5 24.9478 25.3881 24.7486 25.1888C24.5493 24.9895 24.4374 24.7193 24.4374 24.4375V19.125C24.4374 18.8432 24.5493 18.573 24.7486 18.3737C24.9478 18.1744 25.2181 18.0625 25.4999 18.0625H28.6874V25.5H25.4999Z" fill="#3F3F46"/>
+                    </svg>
+                    İletişim
+                </a>
+            </div>
+        </div>            
+    </footer>
+
+</body>
+</html>
